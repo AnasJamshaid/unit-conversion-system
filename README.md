@@ -1,6 +1,6 @@
 # The Conversion Compass 🧭
 
-[![Streamlit App](https://img.shields.io/badge/Streamlit-App-orange?style=flat-square)](https://share.streamlit.io/your-github-username/your-repo-name/main/your_app_name.py)
+[![Streamlit App](https://img.shields.io/badge/Streamlit-App-orange?style=flat-square)](https://conversioncompass-by-muhammadanasjamshaid.streamlit.app/)
 [![GitHub Stars](https://img.shields.io/github/stars/your-github-username/your-repo-name?style=social)](https://github.com/your-github-username/your-repo-name)
 [![GitHub Forks](https://img.shields.io/github/forks/your-github-username/your-repo-name?style=social)](https://github.com/your-github-username/your-repo-name)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  <!-- Replace MIT with your license -->
