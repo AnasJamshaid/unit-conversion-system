@@ -34,7 +34,22 @@ share/python-wheels/
 *.spec
 build/
 dist/
-.streamlit/streamlit.toml
+
+
+*  # General rule to include everything
+!.gitignore # To keep .gitignore itself
+!.streamlit/  # Explicitly exclude the .streamlit directory
+!credentials.json  # Explicitly include credentials.json
+!*.log  # Explicitly include log files
+!*.tmp  # Explicitly include temp files
+!*.swp  # Explicitly include temp files
+!*.ipynb  # Explicitly include Jupyter Notebooks
+!*.py  # Explicitly include Python files
+!*.json  # Explicitly include JSON files
+!*.csv  # Explicitly include CSV files
+!*.tsv  # Explicitly include TSV files
+
+
 # Jupyter Notebook
 .ipynb_checkpoints
 
