@@ -5,17 +5,7 @@ import traceback
 from PIL import Image
 
 
-from PIL import Image
 
-with st.sidebar:
-    try:
-        image = Image.open("./Muhammad Anas Jamshaid.png")
-        st.image(image, width=150)
-    except FileNotFoundError:
-        st.error("Image not found! Please ensure 'Muhammad Anas Jamshaid.png' is in the correct directory.")
-    st.header("About the Creator")
-
-    
 # --- Setup Logging ---
 logging.basicConfig(level=logging.ERROR)
 
