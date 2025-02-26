@@ -544,6 +544,8 @@ st.markdown(
         border-radius: 8px;
         margin-bottom: 15px;
     }
+
+    
     .fa {
         font-size: 20px; /* Adjust the size as needed */
         margin-right: 5px; /* Space between icon and text */
@@ -702,8 +704,6 @@ def generate_response(user_input):
         logging.error(f"AI Chatbot Error: {error_message}\n{traceback.format_exc()}")  # Log detailed error
         return error_message  # Still return a message to the user
 
-# Improved Chat Interface
-st.markdown('<div class="chat-container">', unsafe_allow_html=True)  # Start scrollable chat area
 
 for message in st.session_state.chat_history:
     with st.chat_message(message["role"]):
